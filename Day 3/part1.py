@@ -1,0 +1,1 @@
+plays = [play.split() for play in open('text.txt').read().strip().splitlines()]
